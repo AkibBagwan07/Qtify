@@ -6,7 +6,7 @@ import Searchbar from '../searchbar/searchbar'
 const navbar = () => {
   return (
     <nav className={navStyle.navbar}>
-      <LogoJsx />
+      <LogoJsx className={navStyle.logoDiv}/>
       <Searchbar text="Search a album of your choice"/>
       <Button text="Give Feedback"/>
     </nav>
