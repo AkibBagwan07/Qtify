@@ -1,12 +1,12 @@
 import React from 'react'
 import navStyle from "./navbar.module.css"
-import LogoJsx from "../logo/logo"
+import Logo from "../../assests/Group 1.png"
 import Button from "../button/button"
 import Searchbar from '../searchbar/searchbar'
 const navbar = () => {
   return (
     <nav className={navStyle.navbar}>
-      <LogoJsx className={navStyle.logoDiv}/>
+      <div className={navStyle.logoDiv}><img  src={Logo} alt="logo" width={67}/></div>
       <Searchbar text="Search a album of your choice"/>
       <Button text="Give Feedback"/>
     </nav>
