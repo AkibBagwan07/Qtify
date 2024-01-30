@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.cardWrapper{
+    margin-top: 30px;
+}
+.wrapper{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}

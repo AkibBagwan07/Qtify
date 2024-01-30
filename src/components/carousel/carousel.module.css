@@ -1,5 +1,7 @@
 .wrapper {
     position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .leftNav {
