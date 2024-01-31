@@ -6,6 +6,9 @@ import { useEffect, useState } from 'react'
 import { TopAlbums, NewAlbums, fetchSongs } from './api/api.js'
 import Section from './components/section/section.jsx'
 import SongType from './components/songsType/songsType.jsx'
+import AccordionTransition from "./components/accordian/accordian.jsx"
+import MusicPlayer from './components/musicPlayer/musicPlayer.jsx'
+import FeedBack from './components/feedBack/feedBack.jsx'
 
 function App() {
 
@@ -112,6 +115,9 @@ function App() {
         <Section type='album' title='New Albums' data={newAlbumSongs} />
         <SongType data={newAlbumSongs} type='songFilter' title='Songs' filteredData={filteredData} filteredDataValues={filteredDataValues} value={value} handleChange={handleChange} handleToggle={handleToggle}/>
       </div>
+        <AccordionTransition />
+        <MusicPlayer />
+        <FeedBack />
     </>
   )
 }

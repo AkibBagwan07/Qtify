@@ -19,7 +19,7 @@ const FilterSection = ({
 }) => {
 
   return (
-    <div>
+    <div className={styles.parent}>
       <div className={styles.header}>
         <h3>{title}</h3>
       </div>
