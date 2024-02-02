@@ -1,6 +1,5 @@
-
 import styles from "./feedBack.module.css"
-const FeedBack = () => {
+const FeedBack = () => {  
   return (
     <div className={styles.main}>
         <h3 className={styles.header}>Feedback</h3>
@@ -8,7 +7,7 @@ const FeedBack = () => {
      <input placeholder="Email ID" className={styles.field} />
      <input placeholder="Subject" className={styles.field} />
      <input placeholder="Description"  className={styles.description}/>
-     <button className={styles.button}>submit Feedback</button>
+     <button onClick={()=>{window.location.reload()}} className={styles.button}>submit Feedback</button>
     </div>
   )
 }

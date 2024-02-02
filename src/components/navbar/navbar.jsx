@@ -9,7 +9,6 @@ const navbar = ({data}) => {
     <nav className={navStyle.navbar}>
       <div className={navStyle.logoDiv}><img  src={Logo} alt="logo" width={67}/></div>
       <Searchbar text="Search a album of your choice"/>
-      {/* <SearchFunc data={data}/> */}
        <Button text="Give Feedback"/>
     </nav>
   )
