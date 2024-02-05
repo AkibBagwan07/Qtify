@@ -8,8 +8,6 @@ import Section from './components/section/section.jsx'
 import SongType from './components/songsType/songsType.jsx'
 import AccordionTransition from "./components/accordian/accordian.jsx"
 import MusicPlayer from './components/musicPlayer/musicPlayer.jsx'
-import FeedBack from './components/feedBack/feedBack.jsx'
-
 function App() {
 
   const [topAlbumSongs, setTopAlbumSongs] = useState([])
@@ -117,7 +115,6 @@ function App() {
       </div>
         <AccordionTransition />
         <MusicPlayer />
-        {/* <FeedBack /> */}
     </>
   )
 }
