@@ -2,10 +2,8 @@ import {ReactComponent as MusicPlayerPic} from "../../assests/musicPlayerPic.svg
 import {ReactComponent as PlayButton} from "../../assests/playButton.svg"
 import {ReactComponent as PlayBar} from "../../assests/playerBar.svg"
 import styles from  "./musicPlayer.module.css"
-import Music from "../../assests/music.mp3"
 import {ReactComponent as PauseButton} from "../../assests/pauseButton.svg"
 import Paisa from "../../assests/paisaHindi.mp3.mp3"
-
 
 const MusicPlayer = () => {
 
